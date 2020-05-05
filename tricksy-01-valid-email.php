@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 function validEmail(string $str): bool
 {
-    // $str = preg_replace("/^\s*/", "", $str);
-    // $str = preg_replace("/\s*$/", "", $str);
-
     $str = preg_replace("/(^\s*)|(\s*$)/", "", $str);
     return $str = filter_var($str, FILTER_VALIDATE_EMAIL) !== false;
 }
