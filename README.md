@@ -1,4 +1,6 @@
-# Richard Stibbard - Week 6 - Regex Challenges
+# Week 6 - Regex Challenges
+## Repo name: week-6--regex
+## Local folder: 02-01-regex
 
 - 01-has-number.php - returns true if the given string contains a digit
 - 02-mi5.php - returns true if the given string is 00 followed by a digit
